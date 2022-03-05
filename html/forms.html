@@ -43,5 +43,64 @@
         <input type="text" name="search_query">
         <button type="submit">Search Youtube</button>
     </form>
+
+    <h2>Radio, Checkboxes and selects</h2>
+    <form>
+        <input type="checkbox" name="tick" id="fan">
+        <label for="fan">Fan of emilia clarke?</label>
+        <button type="submit">Submit</button>
+    </form>
+    <form action="temp.html">
+
+        <input type="radio" name="carModel" value="2010" id="2010">
+        <label for="2010">2010</label>
+        <input type="radio" name="carModel" id="2011" value="2011">
+        <label for="2011">2011</label>
+        <button type="Submit">Submit</button>
+
+    </form>
+
+    <form action="">
+        <label for="favCar">What is your fav car?</label>
+        <select name="favCar" id="favCar">
+            <option value="">--Choose your fav car--</option>
+            <option value="toyota">Toyota</option>
+            <option value="suzuki">Suzuki</option>
+            <option value="jeep">Jeep</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Race Registration!</h2>
+    <form action="">
+        <label for="fname">First Name </label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="lname">Last name </label>
+        <input type="text" name="lname" id="lname" required>
+        <br>
+        <p>Select a race: </p>
+        <input type="radio" name="race" id="funRun" value="funRun">
+        <label for="funRun">Fun Run 5k</label>
+        <br>
+        <input type="radio" name="race" id="halfMarathon" value="halfMarathon">
+        <label for="halfMarathon">Half Marathon</label>
+        <br>
+        <input type="radio" name="race" id="fullMarathon" value="fullMarathon">
+        <label for="fullMarathon">Full Marathon</label>
+        <br>
+        <label for="emailID">Email </label>
+        <input type="email" name="email" id="emailID">
+        <label for="password">Password </label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="age">Select age group</label>
+        <select name="age" id="age">
+            <option value="under18">Under 18</option>
+            <option value="18-24">18-30</option>
+            <option value="30-50">30-50</option>
+            <option value="50+">50+</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
